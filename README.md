@@ -1,6 +1,6 @@
 # S7ripClock
 
-This is an Arduino sketch code for supporting the S7ripClock model from https://www.thingiverse.com/thing:4190016 to allow installating on Wemos D1 Mini. The wemos has wifi and it can fetch the time from NTP server without the need for RTC module.
+This is an Arduino sketch code for supporting the S7ripClock model from https://www.thingiverse.com/thing:4190016 to allow installating on Wemos D1 Mini. The wemos has wifi and it can fetch the time from NTP server without the need for RTC module. It also support MQTT control without the need to add pushbuttons to change the colors of the LEDs. So, it requires a constant connection to a MQTT server (suitable for tasmota messages).
 
 The local timezone is also fetched from the internet using timezonedb. You need an API KEY from them to allow the sketch to fetch the your local timezone using longitude and latitude.
 
